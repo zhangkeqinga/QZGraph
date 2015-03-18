@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>843125FB-6218-46F7-9D72-E25C29D9CC70</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QZGraph</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8F89964ABD21D3269D729BACB27C5D37BE088A3F</key>
+		<string>https://github.com/zhangkeqinga/QZGraph.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QZGraph.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8F89964ABD21D3269D729BACB27C5D37BE088A3F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangkeqinga/QZGraph.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8F89964ABD21D3269D729BACB27C5D37BE088A3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F89964ABD21D3269D729BACB27C5D37BE088A3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QZGraph</string>
+		</dict>
+	</array>
+</dict>
+</plist>

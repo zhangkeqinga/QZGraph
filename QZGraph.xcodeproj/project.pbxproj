@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F56BE97C1AB7BC09003BB609 /* LineChartViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BE97B1AB7BC09003BB609 /* LineChartViewDemo.m */; };
+		F56BE97F1AB7BC4C003BB609 /* EColumnChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BE97E1AB7BC4C003BB609 /* EColumnChartLabel.m */; };
+		F56BE9831AB7C4C5003BB609 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BE9821AB7C4C5003BB609 /* LineChartView.m */; };
+		F56BE9871AB81FAE003BB609 /* LineChartViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BE9861AB81FAE003BB609 /* LineChartViewOne.m */; };
 		F5B87B111AB6801800E14F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B87B101AB6801800E14F72 /* main.m */; };
 		F5B87B141AB6801800E14F72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B87B131AB6801800E14F72 /* AppDelegate.m */; };
 		F5B87B171AB6801800E14F72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B87B161AB6801800E14F72 /* ViewController.m */; };
@@ -28,6 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F56BE97A1AB7BC09003BB609 /* LineChartViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewDemo.h; sourceTree = "<group>"; };
+		F56BE97B1AB7BC09003BB609 /* LineChartViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewDemo.m; sourceTree = "<group>"; };
+		F56BE97D1AB7BC4C003BB609 /* EColumnChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColumnChartLabel.h; sourceTree = "<group>"; };
+		F56BE97E1AB7BC4C003BB609 /* EColumnChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColumnChartLabel.m; sourceTree = "<group>"; };
+		F56BE9811AB7C4C5003BB609 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		F56BE9821AB7C4C5003BB609 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+		F56BE9841AB7C810003BB609 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		F56BE9851AB81FAE003BB609 /* LineChartViewOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewOne.h; sourceTree = "<group>"; };
+		F56BE9861AB81FAE003BB609 /* LineChartViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewOne.m; sourceTree = "<group>"; };
 		F5B87B0B1AB6801800E14F72 /* QZGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B87B0F1AB6801800E14F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B87B101AB6801800E14F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,12 +97,21 @@
 		F5B87B0D1AB6801800E14F72 /* QZGraph */ = {
 			isa = PBXGroup;
 			children = (
+				F56BE9841AB7C810003BB609 /* UtilsMacro.h */,
 				F5B87B121AB6801800E14F72 /* AppDelegate.h */,
 				F5B87B131AB6801800E14F72 /* AppDelegate.m */,
 				F5B87B151AB6801800E14F72 /* ViewController.h */,
 				F5B87B161AB6801800E14F72 /* ViewController.m */,
 				F5B87B341AB6B1FB00E14F72 /* DrawOne.h */,
 				F5B87B351AB6B1FB00E14F72 /* DrawOne.m */,
+				F56BE97A1AB7BC09003BB609 /* LineChartViewDemo.h */,
+				F56BE97B1AB7BC09003BB609 /* LineChartViewDemo.m */,
+				F56BE9811AB7C4C5003BB609 /* LineChartView.h */,
+				F56BE9821AB7C4C5003BB609 /* LineChartView.m */,
+				F56BE9851AB81FAE003BB609 /* LineChartViewOne.h */,
+				F56BE9861AB81FAE003BB609 /* LineChartViewOne.m */,
+				F56BE97D1AB7BC4C003BB609 /* EColumnChartLabel.h */,
+				F56BE97E1AB7BC4C003BB609 /* EColumnChartLabel.m */,
 				F5B87B181AB6801800E14F72 /* Main.storyboard */,
 				F5B87B1B1AB6801800E14F72 /* Images.xcassets */,
 				F5B87B1D1AB6801800E14F72 /* LaunchScreen.xib */,
@@ -224,10 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56BE97C1AB7BC09003BB609 /* LineChartViewDemo.m in Sources */,
 				F5B87B361AB6B1FB00E14F72 /* DrawOne.m in Sources */,
+				F56BE9831AB7C4C5003BB609 /* LineChartView.m in Sources */,
 				F5B87B171AB6801800E14F72 /* ViewController.m in Sources */,
+				F56BE9871AB81FAE003BB609 /* LineChartViewOne.m in Sources */,
 				F5B87B141AB6801800E14F72 /* AppDelegate.m in Sources */,
 				F5B87B111AB6801800E14F72 /* main.m in Sources */,
+				F56BE97F1AB7BC4C003BB609 /* EColumnChartLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QZGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QZGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

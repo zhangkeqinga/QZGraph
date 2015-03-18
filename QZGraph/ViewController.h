@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "DrawOne.h"
 
+#import "LineChartViewDemo.h"
+#import "LineChartView.h"
+
+
+#import "LineChartViewOne.h"
+
 @interface ViewController : UIViewController
 
 
